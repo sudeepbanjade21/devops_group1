@@ -47,7 +47,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build docker image
-        run: docker build -t nextjs-app:latest .
+        run: docker build -t devopsprojectt3/nextjs-app:latest .
 
       - name: Push docker image
         run: docker push devopsprojectt3/nextjs-app:latest
