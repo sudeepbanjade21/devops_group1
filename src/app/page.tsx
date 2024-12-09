@@ -27,6 +27,10 @@ export default function Home() {
             <td>Sudeep Banjade</td>
             <td>C0911574</td>
           </tr>
+          <tr>
+            <td>New Student</td>
+            <td>C01234</td>
+          </tr>
         </tbody>
       </table>
     </div>
